@@ -1,0 +1,21 @@
+Vikram
+AI & Data Science student — Machine Learning, Web Development
+
+Summary:
+I’m an AI & Data Science student passionate about designing intelligent systems and developing scalable applications. Skilled in Python, SQL, machine learning, and web development.
+
+Experience:
+- Data Science Intern — Tech Solutions Pvt Ltd (July 2024)
+  • Built preprocessing pipelines, EDA dashboards, and baseline ML models.
+- Web Development Intern — Innovate Labs (May 2023)
+  • Developed responsive web pages and integrated backend APIs.
+
+Education:
+B.Tech — AI & Data Science, Agni College of Technology (2022–2026)
+
+Skills:
+Python, Machine Learning, Pandas, NumPy, SQL, JavaScript, HTML/CSS, Git
+
+Contact:
+vikrampalanivel29@gmail.com
+https://github.com/shadow04codx
