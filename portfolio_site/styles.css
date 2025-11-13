@@ -122,7 +122,7 @@ img {
   object-fit: cover;
   transition: 0.4s;
 }
-.profile-photo img:hover {
+.profile-photo {
   transform: scale(1.1);
 }
 
