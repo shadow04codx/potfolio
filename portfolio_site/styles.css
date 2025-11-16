@@ -113,7 +113,7 @@ img {
 
 .profile-photo {
   width: 280px;          /* Make width & height equal */
-  height: 300px;
+  height: 350px;
 
   border-radius: 70%;    /* Perfect circle */
   overflow: hidden;
