@@ -264,7 +264,7 @@
                     <input type="text" name="NAME" placeholder="Name" required>
                     <input type="email" name="EMAIL" placeholder="Email" required>
                     <input type="text" name="SUBJECT" placeholder="Subject">
-                    <textarea name="message" rows="5" cols="40" placeholder="Enter your message here..."></textarea>
+                        <textarea name="MESSAGE" id="message" class="auto-resize" placeholder="Message" required></textarea>
                     <input type="submit" value="Send Message" class="submit">
                 </form>
                 <span id="msg"></span>
@@ -289,6 +289,29 @@
 
     <!-- Your custom JS -->
     <script src="script.js"></script>
+
+        <!-- Auto-resize textarea script -->
+        <script>
+        (function(){
+            function autoResize(el){
+                el.style.height = 'auto';
+                el.style.height = el.scrollHeight + 'px';
+            }
+
+            document.addEventListener('input', function(e){
+                var t = e.target;
+                if(t && t.classList && t.classList.contains('auto-resize')){
+                    autoResize(t);
+                }
+            }, false);
+
+            document.addEventListener('DOMContentLoaded', function(){
+                document.querySelectorAll('textarea.auto-resize').forEach(function(el){
+                    autoResize(el);
+                });
+            });
+        })();
+        </script>
 
     <!-------------------------- Footer -------------------------->
     <footer class="footer">

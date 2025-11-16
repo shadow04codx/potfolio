@@ -409,6 +409,13 @@ img {
   resize: vertical;
 }
 
+/* Auto-resize textarea: hides native scrollbar and disables manual resize for JS-controlled resizing */
+.contact textarea.auto-resize {
+  min-height: 120px;
+  overflow: hidden;
+  resize: none;
+}
+
 .submit {
   background: #fed700;
   color: #202020;
