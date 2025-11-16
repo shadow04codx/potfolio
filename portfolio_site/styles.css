@@ -112,13 +112,26 @@ img {
 }
 
 .profile-photo {
-  width: 280px;
-  height: 400px;
-  border-radius: 40px;
+  width: 280px;          /* Make width & height equal */
+  height: 280px;
+
+  border-radius: 50%;    /* Perfect circle */
   overflow: hidden;
-  border: 8px solid #444;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
-  flex-shrink: 0;
+
+  border: 5px solid #fed700;   /* Outline color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 }
 .profile-photo img {
   width: 100%;
@@ -126,7 +139,7 @@ img {
   object-fit: cover;
   transition: 0.4s;
 }
-.profile-photo:hover img {
+.profile-photo: img {
   transform: scale(1.05);
 }
 
