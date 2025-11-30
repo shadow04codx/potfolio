@@ -367,6 +367,7 @@ img {
 .project p {
   font-size: 15px;
   color: #ddd;
+  text-align: justify;
 }
 
 /* --------------------------- Contact --------------------------- */
