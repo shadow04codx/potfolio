@@ -1,0 +1,4 @@
+id,label,plaintext_values
+1,patient_a,"[0.12, 1.45, 5.67]"
+2,patient_b,"[2.33, 0.98, 8.90]"
+3,patient_c,"[4.10, 3.45, 1.11]"
